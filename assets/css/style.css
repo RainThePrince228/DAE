@@ -81,7 +81,7 @@ header{
 
 article{
     width: auto;
-    height: 400vh;
+    height: 150vh;
 }
 
 #articleStart{
@@ -142,4 +142,43 @@ article{
     justify-content: space-between;
     padding: 0 5vh;
     margin-top: auto;
+}
+
+footer{
+    width: auto;
+    height: 200vh;
+}
+
+#footerTop{
+    position: relative;
+    width: auto;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #B36050;
+    background: #F1D3B9;
+}
+
+#footerTopText{
+    position: absolute;
+    right: 20vh;
+    width: 40vh;
+    height: 50vh;
+    padding: 5vh;
+    line-height: 1.8;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#footerTopWomanOne{
+    position: absolute;
+}
+
+#footerTopWomanTwo{
+    position: absolute;
 }
