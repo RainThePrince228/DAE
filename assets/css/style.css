@@ -165,7 +165,7 @@ article{
 
 footer{
     width: auto;
-    height: 160vh;
+    height: 170vh;
 }
 
 #footerTop{
@@ -234,8 +234,60 @@ footer{
 
 #footerBottom{
     width: auto;
-    height: 50vh;
+    height: 60vh;
     background-color: #F6F4EC;
     border-top: 2px solid #F1D3B9;
     color: #B45F4D;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#footerBottomFirst{
+    padding: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+#footerBottomFirstLeft{
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#footerBottomFirstLeft p{
+    padding-top: 5vh;
+}
+
+#footerBottomFirstRight{
+    width: 50%;
+    height: 30vh;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 1.8;
+}
+
+#Subscribe{
+    width: 70%;
+    height: 2vh;
+    padding: 2vh;
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    border: 5px solid #B45F4D;
+}
+
+#footerBottomSecond{
+    height: 5vh;
+    padding-left: 5vh;
 }
