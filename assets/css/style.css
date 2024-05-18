@@ -124,7 +124,7 @@ article{
 #articleBottom{
     width: auto;
     height: 40vh;
-    margin: 15vh 15vh;
+    margin: 5vh 15vh;
     display: flex;
     flex-direction: column;
     background-image: url("../img/bottles.png");
