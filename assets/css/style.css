@@ -152,7 +152,7 @@ footer{
 #footerTop{
     position: relative;
     width: auto;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -162,7 +162,7 @@ footer{
 
 #footerTopText{
     position: absolute;
-    right: 20vh;
+    right: 25vh;
     width: 40vh;
     height: 50vh;
     padding: 5vh;
@@ -173,12 +173,19 @@ footer{
     align-content: space-around;
     align-items: center;
     justify-content: space-around;
+    z-index: 1;
 }
 
 #footerTopWomanOne{
     position: absolute;
+    top: 25vh;
+    left: 40vh;
+    z-index: 2;
 }
 
 #footerTopWomanTwo{
     position: absolute;
+    height: 85vh;
+    width: 60vh;
+    z-index: 0;
 }
