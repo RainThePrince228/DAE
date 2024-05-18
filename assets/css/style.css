@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: auto;
+    height: 110vh;
+}
+
+#headerFirst{
+    width: auto;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F1D3B9;
+    background-color: #B36050;
+}
+
+#headerSecond{
+    width: auto;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #B36050;
+}
+
+#headerSecondRight{
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#headerSecondLeft{
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#headerThird{
+    width: auto;
+    height: 60vh;
+    background-image: url("../img/header_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#headerFourth{
+    width: auto;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+    background-color: #A9AE8D;
+    padding-left: 10vh;
+    padding-top: 5vh;
+}
+
+#headerFourth h2{
+    font-size: 12px;
+}
+
+#headerFourth h1{
+    font-size: 20px;
+}
+
+#headerFourth p{
+    font-size: 10px;
+}
+
+article{
+    width: auto;
+    height: 400vh;
+}
+
+#articleStart{
+    width: auto;
+    height: 5vh;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B36050;
+}
+
+#articleMain{
+    width: auto;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #B36050;
+}
+
+.bottle img{
+    width: auto;
+    height: 60vh;
+}
+
+.bottle p{
+    padding-top: 2vh;
+}
+
+#articleArrows{
+    padding: 0 5%;
+    width: auto;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#articleBottom{
+    width: auto;
+    height: 40vh;
+    margin: 15vh 15vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/bottles.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+#articleBottomBottom{
+    height: 10vh;
+    background-color:#B36050;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vh;
+    margin-top: auto;
+}
