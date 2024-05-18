@@ -24,22 +24,34 @@ header{
 
 #headerSecond{
     width: auto;
-    height: 15vh;
+    height: 10vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     color: #B36050;
 }
 
 #headerSecondRight{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#headerSecondMiddle{
+    width: 57%;
+    padding-left: 20%;
+    display: flex;
+}
+
+#headerSecondLeft{
     width: 33%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-#headerSecondLeft{
-    width: 33%;
+#Account{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -76,6 +88,7 @@ header{
 #headerFourth{
     width: auto;
     height: 30vh;
+    padding-left: 25vh;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
